@@ -10,6 +10,7 @@ const FunctionalThings = (props) => {
       {props.things.map((thing, idx) => 
         <ThingCard key={idx} thing={thing}/>
       )}
+  
     </>
   )
 }
